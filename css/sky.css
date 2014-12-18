@@ -389,7 +389,7 @@ h3.video-carousel-caption{
 .download a {
 	margin:20px 10px;
 }
-img.download {
+.download-app {
 	margin-bottom:-10px;
 	width:85%;
 }
@@ -399,10 +399,16 @@ img.download {
 	min-height:300px;
 }
 
-img.signup {
+.img-signup {
 	margin-bottom:-10px;
 	margin-left: 25px;
 	width:100%;
+}
+
+@media only screen and (max-width: 770px) {
+	.img-signup {
+		margin-left: 0;
+	}
 }
 
 .signup h3 {
@@ -507,6 +513,14 @@ input[type="submit"]:hover {
 #newsCarousel .carousel-control {
 	display:none;
 	}
+
+#newsCarousel .carousel-inner .item {
+	height: 800px;
+}
+
+#newsCarousel .item .container {
+	width: 100%;
+}
 }
 /* Footer Styles */
 .footer {
@@ -677,6 +691,14 @@ p.stg:after {
 @media only screen and (max-width: 620px) {
 	.download-buttons img {
 		width: 50%;
+	}
+
+	.download h1 {
+		font-size: 1.5em;
+	}
+
+	.form-container h3 {
+		font-size: 1.5em;
 	}
 }
 
