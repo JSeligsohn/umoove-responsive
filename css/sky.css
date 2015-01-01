@@ -94,7 +94,7 @@ h1{
     outline: 0;
 }
 
-@media(min-width:970px) {
+@media(min-width:992px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -128,6 +128,8 @@ h1{
 	width:100%;	
 }
 #headerCarousel .carousel-inner .item {
+	max-width: 1260px;
+	margin: 0 auto;
 	padding:75px 10px 20px 10px;
 	height: 600px;
 	opacity: 0;
@@ -176,6 +178,7 @@ h1{
 	top:60px;
 	left:0px;
 	text-align: center;
+	margin-left: 20px;
 }
 #headerCarousel .carousel-caption h1{
 	text-shadow:none;
@@ -205,18 +208,19 @@ h1{
 	margin: 0;
 }
 
-@media(max-width:970px) {
+@media(max-width:992px) {
     #headerCarousel .carousel-caption {
         background: rgba(0, 0, 0, 0.35);
         color:#fff;
         width:100%;
+        margin-left: 0;
     }
     #headerCarousel .carousel-caption h1 {
     	font-size:2em;
     	color:#fff;
     }
     #headerCarousel .carousel-caption p{
-    	font-size:.8em;
+    	font-size:1.5em;
     	color:#fff;
     }
     #headerCarousel .carousel-inner {
@@ -491,7 +495,7 @@ input[type="submit"]:hover {
 #newsCarousel .item .container {
 	width:900px;
 }
-@media(max-width:970px) {
+@media(max-width:992px) {
  #newsCarousel .item .container {
 	width:340px;
 	}
@@ -710,6 +714,8 @@ p.stg:after {
 .static-header {
 	height: 430px;
 	background-size: 250%;
+	margin: 0 auto;
+	max-width: 1500px;
 }
 
 @media only screen and (max-width: 992px) {
